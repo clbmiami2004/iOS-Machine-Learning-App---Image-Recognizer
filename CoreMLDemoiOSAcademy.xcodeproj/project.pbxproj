@@ -13,6 +13,8 @@
 		C3AF05D427A35B8C00C3EA27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3AF05D227A35B8C00C3EA27 /* Main.storyboard */; };
 		C3AF05D627A35B9000C3EA27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3AF05D527A35B9000C3EA27 /* Assets.xcassets */; };
 		C3AF05D927A35B9000C3EA27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3AF05D727A35B9000C3EA27 /* LaunchScreen.storyboard */; };
+		C3AF05E427A35F5400C3EA27 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF05E327A35F5400C3EA27 /* Extensions.swift */; };
+		C3AF05E627A36D5600C3EA27 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C3AF05E527A36D5600C3EA27 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		C3AF05D527A35B9000C3EA27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3AF05D827A35B9000C3EA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3AF05DA27A35B9000C3EA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3AF05E027A35D8000C3EA27 /* ProjectInformation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ProjectInformation.md; sourceTree = "<group>"; };
+		C3AF05E327A35F5400C3EA27 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C3AF05E527A36D5600C3EA27 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,8 @@
 		C3AF05C027A35B8C00C3EA27 = {
 			isa = PBXGroup;
 			children = (
+				C3AF05E527A36D5600C3EA27 /* GoogLeNetPlaces.mlmodel */,
+				C3AF05E027A35D8000C3EA27 /* ProjectInformation.md */,
 				C3AF05CB27A35B8C00C3EA27 /* CoreMLDemoiOSAcademy */,
 				C3AF05CA27A35B8C00C3EA27 /* Products */,
 			);
@@ -56,6 +63,7 @@
 		C3AF05CB27A35B8C00C3EA27 /* CoreMLDemoiOSAcademy */ = {
 			isa = PBXGroup;
 			children = (
+				C3AF05E327A35F5400C3EA27 /* Extensions.swift */,
 				C3AF05CC27A35B8C00C3EA27 /* AppDelegate.swift */,
 				C3AF05CE27A35B8C00C3EA27 /* SceneDelegate.swift */,
 				C3AF05D027A35B8C00C3EA27 /* ViewController.swift */,
@@ -138,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3AF05E427A35F5400C3EA27 /* Extensions.swift in Sources */,
+				C3AF05E627A36D5600C3EA27 /* GoogLeNetPlaces.mlmodel in Sources */,
 				C3AF05D127A35B8C00C3EA27 /* ViewController.swift in Sources */,
 				C3AF05CD27A35B8C00C3EA27 /* AppDelegate.swift in Sources */,
 				C3AF05CF27A35B8C00C3EA27 /* SceneDelegate.swift in Sources */,
